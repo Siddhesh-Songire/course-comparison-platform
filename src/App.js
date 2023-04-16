@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import HeadlineCards from "./components/HeadlineCards";
 import Food from "./components/Food";
 import Horizontal_scroll from "./components/Horizontal_scroll";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HeadlineCards />
       <Horizontal_scroll />
       <Food />
+      <Footer />
     </div>
   );
 }
