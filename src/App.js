@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import HeadlineCards from "./components/HeadlineCards";
 import Food from "./components/Food";
+import Horizontal_scroll from "./components/Horizontal_scroll";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <HeadlineCards />
+      <Horizontal_scroll />
       <Food />
     </div>
   );
