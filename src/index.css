@@ -7,3 +7,14 @@
     @apply border border-black rounded-xl px-5 py-2;
   }
 }
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}

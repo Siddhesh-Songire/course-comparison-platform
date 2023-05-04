@@ -6,12 +6,14 @@ import HeadlineCards from "./components/HeadlineCards";
 import Food from "./components/Food";
 import Horizontal_scroll from "./components/Horizontal_scroll";
 import Footer from "./components/Footer";
+import { EmblaCarousel } from "./components/EmblaCarousel";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+      {/* <Hero /> */}
+      <EmblaCarousel />
       <HeadlineCards />
       <Horizontal_scroll />
       <Food />
