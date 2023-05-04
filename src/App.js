@@ -7,14 +7,18 @@ import Food from "./components/Food";
 import Horizontal_scroll from "./components/Horizontal_scroll";
 import Footer from "./components/Footer";
 import { EmblaCarousel } from "./components/EmblaCarousel";
+import Cards from "./components/Cards";
+import NavbarTaiwind from "./components/NavbarTaiwind";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      {/* <Hero /> */}
-      <EmblaCarousel />
-      <HeadlineCards />
+      {/* <Navbar /> */}
+      <NavbarTaiwind />
+      <Hero />
+      {/* <EmblaCarousel /> */}
+      <Cards />
+      {/* <HeadlineCards /> */}
       <Horizontal_scroll />
       <Food />
       <Footer />
