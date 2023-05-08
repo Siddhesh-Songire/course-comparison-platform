@@ -14,10 +14,7 @@ const Hero = () => {
             comparison tool. From coding bootcamps to language courses, we've
             got you covered.
           </p>
-          <a
-            href="#"
-            className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-          >
+          <div className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
             Start comparing
             <svg
               className="w-5 h-5 ml-2 -mr-1"
@@ -31,7 +28,7 @@ const Hero = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </div>
           <Link
             to="/courses"
             className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"

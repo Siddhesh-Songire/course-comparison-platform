@@ -1,9 +1,7 @@
 import "./App.css";
 import React from "react";
-
 import Food from "./components/Food";
 import Footer from "./components/Footer";
-import Cards from "./components/Cards";
 import NavbarTaiwind from "./components/NavbarTaiwind";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
