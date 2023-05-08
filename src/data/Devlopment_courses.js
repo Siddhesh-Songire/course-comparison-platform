@@ -1,47 +1,51 @@
 export const Dev_courses = [
   {
     id: 1,
-    course_name: "sapien urna pretium",
+    course_name: "[2023] The Complete Management Skills Certification Course",
     category: "Management",
     image:
-      "https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    URL: "https://tailwindcss.com/docs/guides/create-react-app",
-    tags: ["Tag1", "Tag2", "Tag3"],
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVm1RiVQ5UbCjaSetzyOsjUnVsGULqIWNJFYbQMC9JHNuv4wRl",
+    URL: "https://www.udemy.com/course/new-manager-training/",
+    tags: ["Tag1", "Tag3"],
   },
+
   {
     id: 2,
-    course_name: "primis in faucibus",
+    course_name: "Strategic Leadership and Management Specialization",
     category: "Management",
     image:
-      "https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    URL: "https://tailwindcss.com/docs/guides/create-react-app",
-    tags: ["Tag1", "Tag3"],
+      "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/d7/37e97f17cb47e0950ee6b385cba2e9/Gies-Square-Logo-from-MarCom.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=600&h=216&fit=fill&q=50",
+    URL: "https://www.coursera.org/specializations/strategic-leadership",
+    tags: ["Tag1", "Tag2", "Tag3"],
   },
+
   {
     id: 3,
-    course_name: "nulla integer pede",
+    course_name: "Principles Of Management | Business Studies",
     category: "Management",
     image:
-      "https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    URL: "https://tailwindcss.com/docs/guides/create-react-app",
+      "https://i.ytimg.com/vi/kTWyt6KC9Jw/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB43qaHHnSy11Yi2Gg07FE-DvtrBg",
+    URL: "https://www.youtube.com/watch?v=kTWyt6KC9Jw&list=PLaAhQ2ofZZRBjpgXHPpWF0sYwiLD5Gh1k",
     tags: ["Tag1", "Tag2"],
   },
+
   {
     id: 4,
-    course_name: "placerat ante nulla",
-    category: "ML",
+    course_name: "Essential Management Skills",
+    category: "Management",
     image:
-      "https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    URL: "https://tailwindcss.com/docs/guides/create-react-app",
+      "https://www.ibm-institute.com/wp-content/uploads/2022/05/essential-management-skills.jpg",
+    URL: "https://www.ibm-institute.com/product/basic-management-skills/",
     tags: ["Tag1", "Tag3"],
   },
+
   {
     id: 5,
-    course_name: "sed nisl nunc",
-    category: "AI",
+    course_name: "The Data Science Course 2023: Complete Data Science Bootcamp",
+    category: "Data Science",
     image:
-      "https://images.pexels.com/photos/3184170/pexels-photo-3184170.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    URL: "https://tailwindcss.com/docs/guides/create-react-app",
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSyjsrFlNPF1SHozJQUDSRX4Uiqw4FtEE-WSG2GeI9h6j_Qtau8",
+    URL: "https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/",
     tags: ["Tag3"],
   },
 ];

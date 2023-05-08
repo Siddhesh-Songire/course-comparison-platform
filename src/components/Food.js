@@ -57,9 +57,9 @@ const Food = () => {
   //-------------------------------------
 
   return (
-    <div className="max-w-[1640px] m-auto px-4 py-12">
-      <h1 className="text-orange-600 font-bold text-4xl text-center">
-        Top Rated Menu Items
+    <div className="my-5 max-w-[1640px] m-auto px-4 py-12">
+      <h1 className="text-blue-700 font-bold text-4xl text-center">
+        All Courses
       </h1>
 
       {/* Filter Row */}
@@ -70,33 +70,45 @@ const Food = () => {
           <div className="flex justfiy-between flex-wrap">
             <button
               onClick={() => setFoods(course_data)}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
               All
             </button>
             <button
-              onClick={() => filterType("AI")}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              onClick={() => filterType("Data Science")}
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
-              AI
+              Data Science
             </button>
             <button
               onClick={() => filterType("Management")}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
               Management
             </button>
             <button
-              onClick={() => filterType("ML")}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              onClick={() => filterType("Web Development")}
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
-              ML
+              Web Development
             </button>
             <button
-              onClick={() => filterType("Other")}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              onClick={() => filterType("AI")}
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
-              Other
+              AI
+            </button>
+            <button
+              onClick={() => filterType("Data Structures And Algorithms")}
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
+            >
+              Data Structures And Algorithms
+            </button>
+            <button
+              onClick={() => filterType("App Development")}
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
+            >
+              App Development
             </button>
           </div>
         </div>
@@ -107,25 +119,25 @@ const Food = () => {
           <div className="flex justify-between max-w-[390px] w-full">
             <button
               onClick={() => filterCoursesByTag("Tag1")}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
               Tag1
             </button>
             <button
               onClick={() => filterCoursesByTag("Tag2")}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
               Tag2
             </button>
             <button
               onClick={() => filterCoursesByTag("Tag3")}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
               Tag3
             </button>
             <button
               // onClick={() => filterPrice("$$$$")}
-              className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
             >
               $$$$
             </button>
@@ -136,14 +148,14 @@ const Food = () => {
 
         <div>
           <p className="font-bold text-gray-700">Filter by Tags</p>
-          <div className="flex justify-between max-w-[390px] w-full">
+          <div className="flex justify-between max-w-[490px] w-full">
             {uniqueTags.map((tag) => (
               <button
                 key={tag}
                 onClick={() => toggleTag(tag)}
-                className={`className="mx-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white" ${
+                className={`className="m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white" ${
                   activeTags.includes(tag)
-                    ? "bg-orange-600 text-white"
+                    ? " bg-blue-600 text-white"
                     : "bg-white-400"
                 }`}
               >
@@ -171,7 +183,7 @@ const Food = () => {
             <div className="flex justify-between px-2 py-4">
               <p className="font-bold">{item.course_name}</p>
               <p>
-                <span className="bg-orange-500 text-white p-1 rounded-full">
+                <span className="bg-blue-500 text-white p-1 rounded-full">
                   {item.tags}
                 </span>
               </p>
@@ -200,9 +212,9 @@ const Food = () => {
             </div>
             <div className="flex justify-between px-2 py-4">
               <p className="font-bold">{item.course_name}</p>
-              <div className="bg-gray-800 text-white rounded-full px-4 py-1">
+              {/* <div className="bg-gray-800 text-white rounded-full px-4 py-1">
                 <p className="text-sm">{item.category}</p>
-              </div>
+              </div> */}
             </div>
             <div className="flex flex-wrap justify-start px-2 pb-4">
               {item.tags.map((tag) => (
